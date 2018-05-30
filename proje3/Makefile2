@@ -1,0 +1,3 @@
+main:
+	g++ -c  oled_demo.cpp -lwiringPi
+	g++ *.o -o exe -lwiringPi -lcurl
